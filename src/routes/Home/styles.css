@@ -1,0 +1,40 @@
+.hero-text-container {
+    @apply
+        relative
+        mx-auto
+        px-8;
+}
+
+.hero-header {
+    @apply
+        text-5xl 
+        lg:text-7xl 
+        text-transparent 
+        bg-clip-text 
+        bg-gradient-to-r 
+        from-textblue 
+        to-webpink 
+        font-steelfish 
+        py-2;
+}
+
+.hero-text {
+    @apply
+        mt-4
+        max-w-lg
+        font-satoshi
+        text-xl 
+        lg:text-2xl 
+        py-4
+        text-black;
+}
+
+.read-more-button {
+    @apply
+        bg-gradient-to-r
+        from-textblue
+        to-webpink
+        font-satoshi
+        w-64
+        my-8;
+}

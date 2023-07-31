@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Satoshi-Variable;
+  src: url("../fonts/Satoshi-Variable.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SteelfishRg;
+  src: url("../fonts/SteelfishRg-Regular.otf") format("opentype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  overflow-x: hidden;
+}
